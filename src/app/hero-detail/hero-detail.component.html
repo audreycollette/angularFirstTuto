@@ -1,0 +1,14 @@
+
+<div *ngIf="abc">
+  <h2>
+    {{abc.name | uppercase}} Details
+  </h2>
+  <div>
+      <span>id: </span>{{abc.id}}
+  </div>
+    <div>
+      <label>name:
+        <input [(ngModel)]="abc.name" placeholder="name">
+      </label>
+    </div>
+</div>
